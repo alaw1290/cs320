@@ -1,0 +1,2 @@
+Wallis:
+	The stream aux function constructs the partial sums of the wallis stream with a val psum to track the sum so far, and a i j to calculate the next sum of psum*(i/j). The switch variable alternates which val i or j to increment by 2.

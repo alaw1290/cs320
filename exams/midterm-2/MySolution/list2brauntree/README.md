@@ -1,0 +1,2 @@
+list2brauntree:
+	the function takes the head of the list of as the central node of its current tree, then divides the tail of the list into two equal parts for the recursive call into subtrees in order to construct the tree as balanced as possible

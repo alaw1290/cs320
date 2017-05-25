@@ -1,0 +1,2 @@
+mytree_postordize:
+	mytree_postordize calls itself recursive down the left, right subtrees first before returning the node value last, ensuring a post-order traversal of the tree. Testing code from https://rosettacode.org/wiki/Tree_traversal#ATS

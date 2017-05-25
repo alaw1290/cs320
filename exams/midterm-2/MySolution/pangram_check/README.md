@@ -1,0 +1,2 @@
+pangram_check:
+	the function pangram_check basically checks starting from 'a' whether or not it is in the text list. If a character is missing then it automatically returns false, otherwise if it reaches the end of the alphabet it returns true. Loop checks if a letter in the alphabet is in the sentence, and pc_aux iterates through the alphabet.

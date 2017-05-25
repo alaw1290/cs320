@@ -1,0 +1,2 @@
+WordCounting (compiles):
+	WordCounting combine step is done in two steps: first loop iterates over every unique word and sums up the total appearances using loop2, which is the loop that calculates the word count and removes the current word's duplicates. This in effect takes about O(n^2) which is why it fails running over the moby dick text, despite passing the initial test.

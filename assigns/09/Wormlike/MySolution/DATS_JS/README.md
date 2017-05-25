@@ -1,0 +1,6 @@
+Wormlike:
+	- theReset: Scene1 and Scene2 generate the required boards for the reset, with an additional random board for generating a randomized set of obstacles and apples. CleanBoard() resets the entire board, and PlaceApples(N) places N apples randomly across the board
+
+	- theSearch: makes use of the graphsearch_bfs template to serach for the shortest path to the next apple from the worm. Marking is used to check the position of the path, and the validity of the path is checked in the get_neighboors function. This does not guarentee that every apple is reached (travelling salesman) but for most apples it can path to successfully
+
+	- theControl: the majority of changes are to the search function. TheSearch returns the path as a set of coordinates, so theAllActSearch iterates through the list to find the next direction the worm should move. Once there are no more valid paths in theSearch, the worm will move randomly until search is stopped or a valid path presents itself. Note that if a valid path exists it is shown as light gray on the board.
